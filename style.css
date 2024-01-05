@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
+body{
+    color: white;
+    margin: 0;
+    background: black;
+}
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0.6), rgba(49,168,221,.2),rgba(0,0,0.6)), url(./banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem 0 4.6875rem;
+    border-bottom: 1px solid #33a8db;
+}
+.banner .banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    max-width: 32.5rem;
+    width: 110%;
+    row-gap: 1rem;
+}
+.banner .banner-content .logo{
+    margin: 27px;
+}
+.banner .banner-content button{
+    display: flex;
+    width: 20.375rem;
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    border: 0.125rem solid #38a1cd;
+    background-color: transparent;
+    color: #31a8dd;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.36px;
+}
+.banner .banner-content h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(45deg , blue , red)   
+}
+h2{
+    margin: 0;
+    text-transform: uppercase;
+    color: #33a8db;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    text-align: center;
+}
+#course-content{
+    margin: 7.375rem auto;
+    max-width: 49.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.5rem;
+}
+#couse-content p {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+#course-content .modules-list .module{
+    border-radius: 57px;
+    width: 33.4375rem;
+    height: 3.25rem;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1.5rem;
+}
+#course-content .modules-list .module span {
+    color: #33A8DB;
+    padding-right: 0.25rem;
+}
+#course-content .modules-list .module:last-child {
+    margin: 0;
+}
+#transform-world {
+    width: 100%;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+    background-image: url('woman-code.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 22.6875rem;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+#transform-world  p {
+    text-align: left;
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;   
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0;
+    text-transform: lowercase;
+    max-width: 15.25rem;
+}
+#professional-challenges {
+    max-width: 49.5rem;
+    width: 100%;
+    margin: 4.75rem auto 5.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#professional-challenges p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+#professional-challenges img {
+    margin: 2rem 0 2.5rem;
+}
+footer {
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+    padding: 3.75rem 0 2.375rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.625rem;
+}
+footer p {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #33A8DB;
+}
